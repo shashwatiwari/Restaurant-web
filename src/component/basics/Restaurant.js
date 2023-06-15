@@ -3,6 +3,8 @@ import "./style.css"
 import Menu from "./menuApi"
 import MenuCard from './menuCard'
 import Navbar from './Navbar'
+import Contact from './contact'
+import Footer from './footer'
 
 //To get unique category of item
 const uniqueList = [...new Set(Menu.map((currElem) => {
@@ -33,6 +35,8 @@ const Restaurant = () => {
         <div>
             <Navbar filterItem={filterItem} menuList={menuList} />
             <MenuCard menuData={menuData} />
+            <Contact />
+            <Footer />
         </div>
     )
 }
