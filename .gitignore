@@ -4,9 +4,9 @@
 /node_modules
 /.pnp
 .pnp.js
-/basics
-/Hooks
-/todoreact
+basics/
+Hooks/
+todoreact/
 
 # testing
 /coverage
