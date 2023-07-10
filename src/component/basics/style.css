@@ -264,6 +264,7 @@ footer {
 
 footer a {
     text-decoration: none;
+    position: fixed;
     padding: 10px 20px;
     text-align: center;
     float: left;
